@@ -10,5 +10,12 @@ public class Task118 {
             958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470,
             743, 527
         };
+
+        for (int number : numbers) {
+            if (number == 237) {
+                break;
+            }
+            System.out.println(number);
+        }
     }
 }
