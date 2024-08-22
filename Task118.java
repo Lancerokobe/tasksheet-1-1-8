@@ -12,9 +12,10 @@ public class Task118 {
         };
 
         for (int number : numbers) {
-            if (number == 237) {
-                break;
-            }
+            if (number == 237)
+            break;
+            
+            if (number % 2 == 0)
             System.out.println(number);
         }
     }
